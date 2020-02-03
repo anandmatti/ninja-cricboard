@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "CricBoard",
+  "description": "Live Scoreboard for Cricket matches",
+  "version": "1.0",
+  "author": "Anand Mattikopp",
+  "browser_action": {
+    "default_popup": "ninja-cricboard.html",
+	  "default_icon": "ninja-cricboard.png",   
+	  "default_title" : "Live scores at your fingertips" 
+  },
+  "permissions": ["activeTab"]
+}
